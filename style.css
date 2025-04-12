@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #34495e;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  margin: 1rem 0;
+}
+
+.project-list a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project-list a:hover {
+  color: #1abc9c;
+}
