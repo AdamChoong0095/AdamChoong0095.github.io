@@ -1,4 +1,4 @@
-const username = "your-username"; // ← Replace with your GitHub username
+const username = "AdamChoong0095"; // ← Replace with your GitHub username
 const list = document.getElementById("project-list");
 
 fetch(`https://api.github.com/users/${AdamChoong0095}/repos`)
